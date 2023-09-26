@@ -1,21 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
+import Firstcomponent from './components/Firstcomponent';
+import Secondcomponent from './components/Secondcomponent';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Proyecto full stack
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-        </a>
+        <Firstcomponent/>
+        <Secondcomponent/>
       </header>
     </div>
   );
