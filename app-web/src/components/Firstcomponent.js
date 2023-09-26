@@ -1,11 +1,12 @@
 import React from "react";
 
-export default function Firstcomponent() {
+function Firstcomponent() {
 
-    return Firstcomponent(
+    return (
         <>
-            <h1>Agustin</h1>
-            <h2>Hola</h2>
+            <h1>ME CAGO EN DIOS</h1>
         </>
     );
 }
+
+export default Firstcomponent;
